@@ -1,0 +1,273 @@
+*{
+     font-family: "Roboto", sans-serif;
+}
+
+.Hero_container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+ padding: 20px;
+    margin: 10px;
+    width: 1330px;
+    align-items: center;
+
+justify-content: center;
+    height: 560px;
+}
+
+.main{
+    font-size: 300px;
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 1;
+}
+
+.body_text{
+    padding-left:230px;
+    padding-right:230px;
+    font-weight: 200;
+}
+
+.main_button{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    padding:10px;
+    width: 212px;
+    font-weight: 800;
+    margin-top: 20px;
+    
+}
+
+.Hero_container span{
+    color: #1fb622;
+}
+
+.main_button:hover{
+    background-color: #1fb622;
+   
+    border: solid 1px white;
+    
+}
+
+.main_button a{
+   text-decoration: none; 
+    font-style: normal;
+    color: black;
+}
+
+
+
+.form_container {
+  display: flex;
+  height: 91.1vh;
+  justify-content: center;
+}
+
+.left-side {
+  flex: 1;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex; /* Add this */
+  flex-direction: column; /* Add this */
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side p{
+    
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.left-side h2 span{
+    color: #1fb622;
+}
+
+
+.left-side img{
+    width: 160px;
+    height: auto;
+}
+
+
+.right-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+/* Optional: Add some spacing between form elements */
+.form-box form > div {
+  margin-bottom: 15px;
+}
+
+    
+.btn-primary1{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+    
+.btn-primary2{
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+        
+.card_section {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 20px;
+    
+}
+
+.card_box {
+    
+    text-align: center;
+    background-color:#cccccc;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 2px black;
+    margin: 10px;
+    width: 100%;
+}
+
+.card_box1 {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    text-align: right; 
+    background-color:#dddddd;
+    padding: 80px;
+    border-radius: 10px;
+   line-height: 5px;
+   margin: 10px;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+
+.card_box1 img{
+    width: 80px;
+    height: auto;
+    order: 1;
+}
+
+.card_box img{
+    width: 120px;
+    height: auto;
+}
+
+.text {
+    text-align: left; 
+}
+
+.card_box  button{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding:10px;
+    width: 150px;
+    
+}
+
+.card_box p{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+        
+.card_section {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 20px;
+    
+}
+
+.card_box {
+    
+    text-align: center;
+    background-color:#cccccc;
+    padding: 11px;
+    border-radius: 20px;
+    border: solid 2px black;
+    margin: 5px;
+    width: 100%;
+}
+
+.card_box1 {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    text-align: right; 
+    background-color:#dddddd;
+    padding: 80px;
+    border-radius: 10px;
+   line-height: 5px;
+   margin: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.card_box1 img{
+    width: 80px;
+    height: auto;
+    order: 1;
+}
+
+.card_box img{
+    width: 120px;
+    height: auto;
+}
+
+.text {
+    text-align: left; 
+}
+
+.card_box  button{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding:10px;
+    width: 150px;
+    
+}
+
+.card_box p{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+
+.modal {
+
+}

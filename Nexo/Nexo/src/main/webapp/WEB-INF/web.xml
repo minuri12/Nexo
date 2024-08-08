@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+
+    <!-- Servlet definition for RegisterServlet -->
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.learn.mycart.servlets.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.mycompany.mycart.servlets.LoginServlet</servlet-class>
+</servlet>
+
+
+<servlet>
+    <servlet-name>LogOutServlet</servlet-name>
+    <servlet-class>com.mycompany.mycart.servlets.LogOutServlet</servlet-class>
+</servlet>
+
+    
+<servlet>
+    <servlet-name>ProductOparetionServlet</servlet-name>
+    <servlet-class>com.mycompany.mycart.servlets.ProductOparetionServlet</servlet-class>
+</servlet>
+
+
+<servlet>
+    <servlet-name>RemoveProductServlet</servlet-name>
+    <servlet-class>com.mycompany.mycart.servlets.RemoveProductServlet</servlet-class>
+</servlet>
+
+<servlet>
+    <servlet-name>RemoveCategoryServlet</servlet-name>
+    <servlet-class>com.mycompany.nexo.servlets.RemoveCategoryServlet</servlet-class>
+</servlet>
+
+<servlet>
+    <servlet-name>CategoryOperationServlet</servlet-name>
+    <servlet-class>com.mycompany.nexo.servlets.CategoryOperationServlet</servlet-class>
+</servlet>
+
+
+
+
+
+
+</web-app>
+
+
