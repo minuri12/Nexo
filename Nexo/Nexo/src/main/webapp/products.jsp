@@ -46,6 +46,12 @@
     } else {
         productsList = pdao.getAllProducts();
     }
+
+    // Debugging output
+    out.println("Products List Size: " + productsList.size() + "<br>");
+    for (Product product : productsList) {
+        out.println("Product: " + product.getPName() + "<br>");
+    }
     %>
     <div class="container">
         <div class="row row-cols-2 row-cols-md-4 g-3">
@@ -127,5 +133,6 @@
             </div>
         </div>
     </div>
+
 </body>
 </html>
